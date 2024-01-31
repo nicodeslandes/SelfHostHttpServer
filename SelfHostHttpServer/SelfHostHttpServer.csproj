@@ -1,0 +1,10 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<OutputType>Exe</OutputType>
+		<LangVersion>preview</LangVersion>
+	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNet.WebApi.OwinSelfHost" Version="5.3.0" />
+	</ItemGroup>
+</Project>
