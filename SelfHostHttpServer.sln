@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34511.98
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SelfHostHttpServer", "SelfHostHttpServer\SelfHostHttpServer.csproj", "{A392FF59-8C78-4962-8D4B-D6BEE27A7637}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelfHostHttpServer", "SelfHostHttpServer\SelfHostHttpServer.csproj", "{A392FF59-8C78-4962-8D4B-D6BEE27A7637}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleHost", "SimpleHost\SimpleHost.csproj", "{322DF684-69BB-458E-AC29-B394332963CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleHostOpenTelemetry", "SimpleHostOpenTelemetry\SimpleHostOpenTelemetry.csproj", "{5D3B9F51-E852-40CA-A51C-979BCA31E6A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Donet8OpenTelemetry", "Donet8OpenTelemetry\Donet8OpenTelemetry.csproj", "{61C20F76-BC58-4781-8CFC-1517DE156D29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{A392FF59-8C78-4962-8D4B-D6BEE27A7637}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A392FF59-8C78-4962-8D4B-D6BEE27A7637}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A392FF59-8C78-4962-8D4B-D6BEE27A7637}.Release|Any CPU.Build.0 = Release|Any CPU
+		{322DF684-69BB-458E-AC29-B394332963CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{322DF684-69BB-458E-AC29-B394332963CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{322DF684-69BB-458E-AC29-B394332963CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{322DF684-69BB-458E-AC29-B394332963CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D3B9F51-E852-40CA-A51C-979BCA31E6A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D3B9F51-E852-40CA-A51C-979BCA31E6A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D3B9F51-E852-40CA-A51C-979BCA31E6A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D3B9F51-E852-40CA-A51C-979BCA31E6A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C20F76-BC58-4781-8CFC-1517DE156D29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C20F76-BC58-4781-8CFC-1517DE156D29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C20F76-BC58-4781-8CFC-1517DE156D29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C20F76-BC58-4781-8CFC-1517DE156D29}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

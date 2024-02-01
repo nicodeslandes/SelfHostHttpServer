@@ -6,5 +6,6 @@
 	</PropertyGroup>
 	<ItemGroup>
 	  <PackageReference Include="Microsoft.AspNet.WebApi.OwinSelfHost" Version="5.3.0" />
+	  <PackageReference Include="prometheus-net.NetFramework.AspNet" Version="8.2.1" />
 	</ItemGroup>
 </Project>
